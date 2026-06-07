@@ -1,4 +1,4 @@
-const formulario = document.querySelector("form");
+const formulario = document.querySelector("ContinuaçãoAula6");
 
 formulario.addEventListener("submit", function(event) {
 
