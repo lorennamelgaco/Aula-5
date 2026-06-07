@@ -11,19 +11,19 @@ formulario.addEventListener("submit", function(event) {
 
   if (nome === "") {
     event.preventDefault();
-    erroEl.textContent = "⚠️ O campo Nome não pode estar vazio.";
+    erroEl.textContent = " O campo Nome não pode estar vazio.";
     return;
   }
 
   if (!email.includes("@")) {
     event.preventDefault();
-    erroEl.textContent = "⚠️ O e-mail precisa conter @.";
+    erroEl.textContent = " O e-mail precisa conter @.";
     return;
   }
 
   if (isNaN(idade) || idade <= 0) {
     event.preventDefault();
-    erroEl.textContent = "⚠️ A idade deve ser maior que 0.";
+    erroEl.textContent = " A idade deve ser maior que 0.";
     return;
   }
 
